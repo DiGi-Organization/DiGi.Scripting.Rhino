@@ -40,7 +40,7 @@ namespace DiGi.Scripting.Rhino.Classes
     /// <summary>
     /// Represents a persistent Grasshopper parameter for serializable output values.
     /// </summary>
-    public class GooOutputParam : GooPresistentParam<GooOutput, Interfaces.ISerializableOutput>
+    public class GooOutputParam : GooPersistentParam<GooOutput, Interfaces.ISerializableOutput>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="GooOutputParam"/> class.

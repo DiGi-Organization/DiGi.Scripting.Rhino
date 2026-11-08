@@ -82,7 +82,7 @@ namespace DiGi.Scripting.Rhino.Classes
     /// <summary>
     /// Represents a Grasshopper parameter for handling <see cref="GooCode" /> objects and their underlying <see cref="Scripting.Classes.Code" /> values.
     /// </summary>
-    public class GooCodeParam : GooSerializablePresistentParam<GooCode, Scripting.Classes.Code>
+    public class GooCodeParam : GooSerializablePersistentParam<GooCode, Scripting.Classes.Code>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="GooCodeParam" /> class.

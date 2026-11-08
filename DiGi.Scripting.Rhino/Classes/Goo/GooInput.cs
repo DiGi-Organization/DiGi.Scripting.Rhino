@@ -40,7 +40,7 @@ namespace DiGi.Scripting.Rhino.Classes
     /// <summary>
     /// A persistent Grasshopper parameter for handling <see cref="GooInput"/> objects.
     /// </summary>
-    public class GooInputParam : GooPresistentParam<GooInput, Interfaces.ISerializableInput>
+    public class GooInputParam : GooPersistentParam<GooInput, Interfaces.ISerializableInput>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="GooInputParam"/> class.

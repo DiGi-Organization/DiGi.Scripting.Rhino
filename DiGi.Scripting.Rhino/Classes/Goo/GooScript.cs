@@ -41,7 +41,7 @@ namespace DiGi.Scripting.Rhino.Classes
     /// <summary>
     /// Represents a persistent parameter for <see cref="GooScript"/> objects.
     /// </summary>
-    public class GooScriptParam : GooSerializablePresistentParam<GooScript, IScript>
+    public class GooScriptParam : GooSerializablePersistentParam<GooScript, IScript>
     {
         /// <summary>
         /// Gets the unique identifier for the script component.

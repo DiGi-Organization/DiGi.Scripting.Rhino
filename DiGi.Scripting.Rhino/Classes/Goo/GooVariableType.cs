@@ -82,7 +82,7 @@ namespace DiGi.Scripting.Rhino.Classes
     /// <summary>
     /// Represents a persistent parameter for <see cref="GooVariableType" />.
     /// </summary>
-    public class GooVariableTypeParam : GooSerializablePresistentParam<GooVariableType, Scripting.Classes.VariableType>
+    public class GooVariableTypeParam : GooSerializablePersistentParam<GooVariableType, Scripting.Classes.VariableType>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="GooVariableTypeParam" /> class.
