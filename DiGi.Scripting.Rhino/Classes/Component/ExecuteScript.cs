@@ -3,9 +3,9 @@ using DiGi.Rhino.Core.Enums;
 using DiGi.Scripting.Classes;
 using DiGi.Scripting.Interfaces;
 using Grasshopper.Kernel;
-using System.Globalization;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace DiGi.Scripting.Rhino.Classes
 {
