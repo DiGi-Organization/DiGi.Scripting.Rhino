@@ -3,6 +3,7 @@ using DiGi.Rhino.Core.Enums;
 using DiGi.Scripting.Classes;
 using DiGi.Scripting.Interfaces;
 using Grasshopper.Kernel;
+using System.Globalization;
 using System;
 using System.Collections.Generic;
 
@@ -139,7 +140,7 @@ namespace DiGi.Scripting.Rhino.Classes
                         }
                         catch (Exception exception_Conversion)
                         {
-                            AddRuntimeMessage(GH_RuntimeMessageLevel.Error, string.Format("Could convert output: {0}", exception_Conversion.Message));
+                            AddRuntimeMessage(GH_RuntimeMessageLevel.Error, string.Format(CultureInfo.CurrentCulture, "Could convert output: {0}", exception_Conversion.Message));
                             return;
                         }
 
